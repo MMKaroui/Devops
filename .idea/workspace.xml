@@ -4,34 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1400886-ca8f-4fa9-a8e1-178ffbb0dabb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/net/youssfi/backend/BackendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/net/youssfi/backend/BackendApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/net/youssfi/backend/loader/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/net/youssfi/backend/loader/DataLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/net/youssfi/backend/web/ChabotController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/net/youssfi/backend/web/ChabotController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/net/youssfi/backend/web/HotelsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/net/youssfi/backend/web/HotelsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-app.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/chat/chat.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/chat/chat.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/crypto/crypto.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/crypto/crypto.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/environments/environment.development.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/environments/environment.development.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/environments/environment.production.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/environments/environment.production.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/environments/environment.ts" afterDir="false" />
-    </list>
+    <list default="true" id="c1400886-ca8f-4fa9-a8e1-178ffbb0dabb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,7 +89,7 @@
       <workItem from="1766872676753" duration="15604000" />
       <workItem from="1767310148759" duration="45786000" />
       <workItem from="1767738118456" duration="53685000" />
-      <workItem from="1768088345523" duration="2039000" />
+      <workItem from="1768088345523" duration="3014000" />
     </task>
     <servers />
   </component>
