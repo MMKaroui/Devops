@@ -1,0 +1,11 @@
+spring:
+  ai:
+    enabled: true
+
+    openai:
+      enabled: true
+      api-key: ${OPENAI_API_KEY}
+
+    ollama:
+      chat:
+        enabled: false

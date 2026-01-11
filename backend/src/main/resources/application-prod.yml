@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://pgvector-service:5432/dbCryptoCurrency
+    username: admin
+    password: ${DB_PASSWORD}
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+
+server:
+  port: 8074
+  ai:
+    enabled: false
+    openai:
+      enabled: false
+    ollama:
+      enabled: false

@@ -4,12 +4,16 @@ import net.youssfi.backend.entities.CryptoCurrency;
 import net.youssfi.backend.repository.CryptoCurrencyRepository;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
 @RestController
+
 @CrossOrigin("*")
+@RequestMapping("/api")
+
 public class HotelsController {
     private CryptoCurrencyRepository hotelRepository;
 

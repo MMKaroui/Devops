@@ -14,7 +14,7 @@ export class CryptoComponent implements OnInit{
   constructor(private http : HttpClient) {
   }
   ngOnInit() {
-    this.http.get(environment.backendHost+"/crypto").subscribe({
+    this.http.get(environment.backendHost+"/api/crypto").subscribe({
       next : value => {
         this.cryptoCurrencies = value;
       },

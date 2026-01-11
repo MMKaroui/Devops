@@ -1,0 +1,36 @@
+spring:
+#  profiles:
+#    active: dev
+  application:
+    name: backend
+  docker:
+    compose:
+      enabled: false
+  ai:
+
+    enabled: false   # ⛔ AI OFF by default
+    openai:
+      enabled: false
+    ollama:
+      enabled: false
+
+  datasource:
+    username: admin
+    password: 1234
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+server:
+  port: 8074
+  address: 0.0.0.0
+
+
+#Run locally: (dev)
+#mvn spring-boot:run -Dspring.profiles.active=dev
+#Run locally: (dev+ai)
+#export OPENAI_API_KEY=sk-xxxx
+#mvn spring-boot:run -Dspring.profiles.active=dev,ai

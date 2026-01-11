@@ -1,18 +1,22 @@
 package net.youssfi.backend.web;
 
-import org.springframework.ai.chat.client.ChatClient;
+/*import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.client.advisor.MessageChatMemoryAdvisor;
 import org.springframework.ai.chat.client.advisor.QuestionAnswerAdvisor;
 import org.springframework.ai.chat.memory.InMemoryChatMemory;
-import org.springframework.ai.vectorstore.VectorStore;
+import org.springframework.ai.vectorstore.VectorStore;*/
+import org.springframework.context.annotation.Profile;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+//@RestController
 @CrossOrigin("*")
+@Profile("ai")
+@RequestMapping("/api")
 public class ChabotController {
-    private ChatClient chatClient;
+  /*  private ChatClient chatClient;
     private VectorStore vectorStore;
 
     public ChabotController(ChatClient.Builder chatClient, VectorStore vectorStore) {
@@ -27,5 +31,5 @@ public class ChabotController {
         return chatClient.prompt()
                 .user(message)
                 .call().content();
-    }
+    }*/
 }

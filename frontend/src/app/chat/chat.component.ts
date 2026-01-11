@@ -25,7 +25,7 @@ export class ChatComponent implements OnInit{
 
   askChatBot() {
     this.loading=true;
-    this.http.get(environment.backendHost+"/chat?message="+this.message, {responseType : 'text'})
+    this.http.get(environment.backendHost+"/api/chat?message="+this.message, {responseType : 'text'})
       .subscribe({
         next : value => {
           this.response = value;
