@@ -25,4 +25,6 @@ management:
         include: health
   endpoint:
     health:
-      show-details: never
+      enabled: true
+  server:
+    port: 8074
