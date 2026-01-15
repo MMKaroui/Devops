@@ -33,7 +33,7 @@ public class BackendApplication {
                                 .platform("Binance")
                                 .consensusRule("Proof of Work")
                                 .webSite("https://binance.com")
-                                .community("Annonces projet, Facebook, Medium, Reddit, Steemit, Telegram")
+                                .community("Annonces projets, Facebook, Medium, Reddit, Steemit, Telegram")
                                 .build()
                 );
                 cryptoCurrencyRepository.save(
