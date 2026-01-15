@@ -18,13 +18,14 @@ ai:
     enabled: false
   ollama:
     enabled: false
+
+    port: 8074
+
 management:
   endpoints:
     web:
       exposure:
-        include: health
+        include: health,info
   endpoint:
     health:
-      enabled: true
-  server:
-    port: 8074
+      show-details: always
